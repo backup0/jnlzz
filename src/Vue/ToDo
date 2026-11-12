@@ -1,0 +1,16 @@
+// Search WHOLE WORD only, 'k.'
+// check before creating daily --- what if date is stupid? -- backwards etc?
+// rearranging is a bit odd -- why?
+// option to drop/recreate fts-db index, this way no need to reindex everything, just recreate the index.
+// force indexing -- what if your index is corrupt, need a redo?
+// pin to lock the notebook (no need to use password to get in --), quicker if you just want to lock it quickly.
+// better UI for change pass.
+// store window position -- possible @ closing.
+// double click on entry list --> open [pword how ar?]
+// enter in search fields.
+// what if ploc = null? Should not we check or is this a bit anal?
+// what if text isnt available, it's in the listing -- but the actual text is ghone? (v0.3b)
+// better looking something is wrong screen -- maybe disable 1 - 12 buttons, editable bbuttons etc.
+// option to start @ loose - I'll never use this. (should be in settings)
+// show full path to fts search etc. in stat.
+// precreate all dates -- yeah, for that year -- because -- yes, easier -- it's daily, you;re supposed to do daily anywya .. (v3)

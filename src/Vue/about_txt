@@ -1,0 +1,81 @@
+Copyright © 2026 Amril
+
+Permission is hereby granted, free of charge,
+to any person obtaining a copy of this software and
+associated documentation files (the “Software”),
+to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”,
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// h2db license
+
+This software contains unmodified binary redistributions for
+H2 database engine (https://h2database.com/),
+which is dual licensed and available under the MPL 2.0
+(Mozilla Public License) or under the EPL 1.0 (Eclipse Public License).
+An original copy of the license agreement can be found at:
+https://h2database.com/html/license.html
+
+// Change logs (current version is @ the top(**))
+
+** v0.5.12b (9.9.26)
+- fix full text search (limit was set to 10)
+- change [misspelled text] color
+- add 'export' button (prev was in menu)
+- option to overwrite exported file
+- going to today's entry with [-]; caret is moved to the end of doc.
+
+v0.5.11b (22.7.26)
+- nothing important.
+
+v0.5.10b (18.7.26)
+- add custom dictionary
+- add more info in the about box thing.
+
+v0.5.9b (16.7.26)
+- correct date + time insertion.
+
+v0.5.8b (14.7.26)
+- add padding to text box so bottom text is @ eye level.
+- edit full text search, remove some stuff from tail end of array list.
+
+v0.5.7b (30.6.26)
+- add shortcut for (qw).
+
+v0.5.6b (28.6.2026)
+- add spell checker.
+
+v0.5.5b (5.4.2026)
+- limit search to 1,000 at a time to prevent freezing when too many results are available.
+
+v0.5.4b (28.5.2025)
+- can reindex individual entries (full text search)
+
+v0.5.3b (22.4.2025)
+- improve full text search.
+- can rebuild indice on full text search db.
+- some gui updates.
+
+v0.5.2b
+- (Daily entry), text hash is calculated before text is set, so every time an entry is open, it's considered modified;
+    so, it get save again, and re-indexed, DUMMY.
+
+v0.5.1b
+- hide setting invalid warning (when it should be hidden)
+
+v0.5b
+- when an item in book list is clicked on password field gets focus.
+- dark mode
